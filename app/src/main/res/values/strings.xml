@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DrugStore</string>
+    <string name="error">"خطا"!</string>
+    <string name="open">Open Drawer</string>
+    <string name="close">Close Drawer</string>
+    <string name="About_us">"طراح و برنامه نویس: گروه برنامه نویسی Dimo Group
+"</string>
+    <string name="Resource">"http://www.tebsun.ir
+        http://bazareasal.com
+        https://ahoota.com
+        http://www.irteb.com
+        http://www.aftabir.com
+        http://www.beytoote.com"</string>
+    <string name="searchText_drugs">برای جستجوی داروی مورد نظر، نام فارسی یا انگلیسی دارو را در کادر بالا وارد کنید...</string>
+    <string name="searchText_Sickness">برای جستجوی بیماری مورد نظر، نام فارسی یا انگلیسی بیماری را در کادر بالا وارد کنید...</string>
+    <string name="searchText_Tashkhis">"برای جستجوی علایم بیماری از کادر جستجو استفاده کنید... با ظاهر شدن لیست علایم روی علامت مورد نظر کلیک کنید تا اسامی تمام بیماری هایی که علامت مورد نظر را دارند نمایش داده شود... سپس با انتخاب کردن هر کدام از بیماریها اطلاعات کاملی در مورد آن بیماری نمایش داده میشود"</string>
+    <string name="exampleText">"متن نمونه :
+        اسپوروتريكوز عبارت‌ است‌ از يك‌ بيماري‌ قارچي‌ عفوني‌ كه‌ باعث‌ ايجاد زخم‌ و آبسه‌ در پوست‌، غدد لنفاوي‌ و عروق‌ لنفاوي‌ مي‌گردد. مزرعه‌داران‌ و باغداران‌ به‌ ويژه‌ افرادي‌ كه‌ با گل‌سرخ‌، خزه‌ مردابي‌ و يا زرشك‌ سر و كار دارند، بيشتر آلوده‌ مي‌شوند"</string>
+
+</resources>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:background="#43e9cae0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/lay_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:weightSum="4"
+        android:padding="5dp">
+        <ImageView
+            android:id="@+id/img_share"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:src="@drawable/share_variant"
+            android:onClick="btnsClick"/>
+        <ImageView
+            android:id="@+id/img_sms"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:onClick="btnsClick"
+            android:src="@drawable/message_processing" />
+        <ImageView
+            android:id="@+id/img_copy"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:onClick="btnsClick"
+            android:src="@drawable/content_copy" />
+        <ImageView
+            android:id="@+id/img_fav"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:onClick="btnsClick"
+            android:src="@drawable/heart_outline" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay_toolbar"
+        android:layout_above="@id/lin_size">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txt_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drug Name"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textColor="#560404"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/backstyle"/>
+
+            <TextView
+                android:id="@+id/gorohedaro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="گروه دارویی:"
+                android:gravity="right"
+                android:layout_marginTop="10dp"
+                android:paddingRight="20dp"
+                android:textColor="#560404"
+                android:textSize="18sp"/>
+            <View
+                android:id="@+id/layout1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#222"/>
+            <TextView
+                android:id="@+id/txt_grohedaro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginTop="10dp"
+                android:paddingRight="20dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+
+
+            <TextView
+                android:id="@+id/moredemasraf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="موارد مصرف:"
+                android:gravity="right"
+                android:layout_marginTop="10dp"
+                android:paddingRight="20dp"
+                android:textColor="#560404"
+                android:textSize="18sp"/>
+
+            <View
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="40dp"
+                android:background="#222"
+                android:baselineAligned="true"
+                tools:ignore="Orientation" />
+
+            <TextView
+                android:id="@+id/txt_moredemasraf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="20dp"
+                android:text=""
+                android:layout_margin="8dp"
+                android:textColor="#020202"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/mizanemasraf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="میزان مصرف:"
+                android:gravity="right"
+                android:layout_marginTop="10dp"
+                android:paddingRight="20dp"
+                android:textColor="#560404"
+                android:textSize="18sp"/>
+            <View
+                android:id="@+id/layout3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#222"/>
+
+            <TextView
+                android:id="@+id/txt_mizanemasraf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text=""
+                android:gravity="right"
+                android:layout_margin="8dp"
+                android:textColor="#020202"
+                android:textSize="18sp"
+                />
+
+
+            <TextView
+                android:id="@+id/tozihat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="توضیحات دارو:"
+                android:gravity="right"
+                android:layout_marginTop="10dp"
+                android:paddingRight="20dp"
+                android:textColor="#560404"
+                android:textSize="18sp"/>
+            <View
+                android:id="@+id/layout4"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#222"/>
+
+            <TextView
+                android:id="@+id/txt_tozihat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text=""
+                android:gravity="right"
+                android:layout_margin="8dp"
+                android:textColor="#020202"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/lin_size"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        android:weightSum="3">
+        <SeekBar
+            android:layout_marginLeft="10dp"
+            android:id="@+id/seekbar_size"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="1.5"
+            android:layout_gravity="center"
+            android:progress="25"
+            android:max="100"
+            android:background="@drawable/backsearch"
+            android:padding="10dp">
+        </SeekBar>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="تغییر سایز متن بطور موقت"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

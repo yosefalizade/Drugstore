@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="لیست علاقمندی ها"
+        android:icon="@drawable/heart_icon"
+        android:id="@+id/favorite" />
+    <item
+        android:title="تنظیمات"
+        android:icon="@drawable/settings"
+        android:id="@+id/settings" />
+    <item
+        android:title="درباره ما"
+        android:icon="@drawable/information_outline"
+        android:id="@+id/About" />
+    <item
+        android:title="منابع"
+        android:icon="@drawable/source_merge"
+        android:id="@+id/resource" />
+    <item
+        android:title="خروج"
+        android:icon="@drawable/exit_to_app"
+        android:id="@+id/exit" />
+
+</menu>
